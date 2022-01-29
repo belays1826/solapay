@@ -1,0 +1,56 @@
+{
+  "name": "web3modal-checkout",
+  "version": "1.0.0",
+  "description": "Payment checkout with Web3Modal",
+  "private": true,
+  "author": "Pedro Gomes <github.com/pedrouid>",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@portis/web3": "^2.0.0-beta.54",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@toruslabs/torus-embed": "^1.2.6",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "4.1.8",
+    "@walletconnect/utils": "^1.4.0",
+    "@walletconnect/web3-provider": "^1.6.6",
+    "authereum": "^0.1.14",
+    "axios": "^0.21.2",
+    "bignumber.js": "^9.0.0",
+    "blockies-ts": "^1.0.0",
+    "ethers": "^5.0.32",
+    "fortmatic": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "styled-components": "4.2.0",
+    "typescript": "~3.7.2",
+    "web3modal": "^1.9.4"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
