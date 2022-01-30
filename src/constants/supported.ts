@@ -119,6 +119,31 @@ export const SUPPORTED_CHAINS: ISupportedChains = {
     blockExplorerUrl: "https://rinkeby-explorer.arbitrum.io",
     rpcUrl: " https://rinkeby.arbitrum.io/rpc",
   },
+  56: {
+    name: "Binance Smart Chain Mainnet",
+    chainId: 56,
+    nativeCurrency: {
+      name: "Binance Chain Native Token",
+      symbol: "BNB",
+      decimals: 18,
+    },
+    assets: ["bnb", "busd"],
+    blockExplorerUrl: "https://bscscan.com",
+    rpcUrl: " https://bsc-dataseed1.binance.org",
+  },
+
+  97: {
+    name: "Binance Smart Chain Testnet",
+    chainId: 56,
+    nativeCurrency: {
+      name: "Binance Chain Native Token",
+      symbol: "tBNB",
+      decimals: 18,
+    },
+    assets: ["bnb", "busd"],
+    blockExplorerUrl: "https://testnet.bscscan.com",
+    rpcUrl: " https://data-seed-prebsc-1-s1.binance.org:8545",
+  },
 };
 
 export const RPC_URLS_FOR_SUPPORTED_CHAINS =
@@ -256,4 +281,32 @@ export const SUPPORTED_ASSETS: ISupportedAssets = {
       contractAddress: "",
     },
   },
+  56: {
+    bnb: {
+      symbol: "BNB",
+      name: "Binance Chain Native Token",
+      decimals: "18",
+      contractAddress: "",
+    },
+    busd: {
+      symbol: "BUSD",
+      name: "Binance-Peg BUSD Token",
+      decimals: "18",
+      contractAddress: "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    },
+  },
+  97: {
+    bnb: {
+      symbol: "BNB",
+      name: "Binance Chain Native Token",
+      decimals: "18",
+      contractAddress: "",
+    },
+    busd: {
+      symbol: "BUSD",
+      name: "Binance-Peg BUSD Token",
+      decimals: "18",
+      contractAddress: "0x8301F2213c0eeD49a7E28Ae4c3e91722919B8B47",
+    },
+  }
 };
