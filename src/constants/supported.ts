@@ -24,7 +24,7 @@ export const SUPPORTED_CHAINS: ISupportedChains = {
       symbol: "ETH",
       decimals: 18,
     },
-    assets: ["eth", "dai"],
+    assets: ["eth", "dai","usdt"],
     blockExplorerUrl: "https://etherscan.io",
   },
   3: {
@@ -148,6 +148,12 @@ export const SUPPORTED_ASSETS: ISupportedAssets = {
       decimals: "18",
       contractAddress: "0x6b175474e89094c44da98b954eedeac495271d0f",
     },
+    usdt: {
+      symbol: "USDT",
+      name: "Tether USD",
+      decimals: "6",
+      contractAddress: "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    },
   },
   3: {
     eth: {
@@ -167,7 +173,7 @@ export const SUPPORTED_ASSETS: ISupportedAssets = {
       symbol: "USDT",
       name: "Tether USD",
       decimals: "6",
-      contractAddress: "0x7ff08ada935b9f6b89b1050218dc3264a57a96e1",
+      contractAddress: "0xb404c51bbc10dcbe948077f18a4b8e553d160084",
     },
   },
   4: {
